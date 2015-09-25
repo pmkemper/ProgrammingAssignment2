@@ -8,8 +8,8 @@
 ## and returns a list that allows one to get and set the matrix, 
 ## and set and get the inverse of the matrix.
 makeCacheMatrix <- function(x = matrix()) {
-	# Return a list with four functions, to set and get the matrix, 
-	# and set and get the inverse.
+    # Return a list with four functions, to set and get the matrix, 
+    # and set and get the inverse.
     inverse <- NULL
     set <- function(y) {
         x <<- y
